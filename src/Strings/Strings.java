@@ -1,3 +1,5 @@
+package Strings;
+
 public class Strings {
 
     private String str;
