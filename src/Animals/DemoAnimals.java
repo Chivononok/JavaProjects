@@ -14,6 +14,7 @@ public class DemoAnimals {
         dog1.play(dog1.getName());
 
         bird1.hatch();
+        bird1.hatch();
         bird1.peck();
         bird1.sing();
         bird1.makeNoise(bird1.getFamily());
