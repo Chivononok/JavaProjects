@@ -1,3 +1,5 @@
+package collections;
+
 public enum StatusFaculty {
     Active("Активный"), NotActive("Неактивный");
     private String statusName;

@@ -1,3 +1,5 @@
+package collections;
+
 public class DemoCollections {
     public static void main(String args[]){
         Group gr1 = new Group(1);

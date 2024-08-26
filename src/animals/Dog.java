@@ -1,4 +1,4 @@
-package Animals;
+package animals;
 
 class Dog extends Animals {
     private String name;

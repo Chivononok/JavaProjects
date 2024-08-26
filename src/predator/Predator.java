@@ -1,4 +1,5 @@
-abstract class Predator {
+package predator;
+public abstract class Predator {
     private String habitat;
     private int maxSpeed;
     private String color;

@@ -1,7 +1,9 @@
+package predator;
+
 public class Crocodile extends Predator{
     private String type;
 
-    Crocodile(String habitat, int maxSpeed, String color, String type){
+    public Crocodile(String habitat, int maxSpeed, String color, String type){
         super(habitat, maxSpeed, color);
         this.type = type;
     }
@@ -22,5 +24,9 @@ public class Crocodile extends Predator{
 
     String moveType() {
         return "Ползает на животе";
+    }
+
+    public String sleep() {
+        return "Крокодил уснул";
     }
 }

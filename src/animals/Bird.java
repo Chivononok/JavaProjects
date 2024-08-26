@@ -1,4 +1,4 @@
-package Animals;
+package animals;
 
 class Bird extends Animals {
     private String family;

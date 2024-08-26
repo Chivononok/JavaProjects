@@ -1,3 +1,4 @@
+package predator;
 public class Leopard extends Predator {
     private String name;
 

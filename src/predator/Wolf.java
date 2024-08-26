@@ -1,21 +1,24 @@
-public class Wolf extends Predator{
+package predator;
+
+public class Wolf extends Predator {
     private String name;
 
-    Wolf(String habitat, int maxSpeed, String color, String name){
+    Wolf(String habitat, int maxSpeed, String color, String name) {
         super(habitat, maxSpeed, color);
         this.name = name;
     }
-    String huntMethod(){
+
+    String huntMethod() {
         return "Окружает жертву";
     }
 
-    public String toString(){
+    public String toString() {
         return "Волк. Имя: " + name + ", метод охоты:" + huntMethod()
                 + ", шум при движении:" + makeNoise()
                 + ", способ передвижения:" + moveType();
     }
 
-    String makeNoise(){
+    String makeNoise() {
         return "продолжительный и пронзающий до самых костей вой";
     }
 

@@ -1,3 +1,5 @@
+package robots;
+
 public interface Robots {
 
     void createRobot();
