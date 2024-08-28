@@ -19,7 +19,7 @@ public class DemoCollectionMap {
         System.out.println("измененная коллекция" + mapSpecEmp);
     }
 
-    public static HashMap<String, ArrayList<Employee>>  reMap(HashMap<Employee, String> mapEmpSpec){
+    public static HashMap<String, ArrayList<Employee>> reMap(HashMap<Employee, String> mapEmpSpec){
         String key;
         HashMap<String, ArrayList<Employee>> mapSpecEmp = new HashMap<>();
 
